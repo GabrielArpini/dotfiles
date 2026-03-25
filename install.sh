@@ -28,3 +28,4 @@ omarchy-font-set "VictorMono Nerd Font"
 omarchy-restart-waybar
 
 echo "Done. Nighthawks is live."
+cp "$DOTFILES/starship.toml" ~/.config/starship.toml

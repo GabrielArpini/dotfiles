@@ -1,0 +1,56 @@
+add_newline = true
+command_timeout = 200
+
+# directory · git branch · git status   ❯
+format = "$directory$git_branch$git_status$python$character"
+
+# ── Prompt character ──────────────────────────────────────────
+[character]
+success_symbol = "[❯](bold #d4a85a)"
+error_symbol   = "[❯](bold #a84848)"
+vimcmd_symbol  = "[❮](bold #4a8080)"
+
+# ── Directory ─────────────────────────────────────────────────
+[directory]
+style                = "#c4b48a"
+truncation_length    = 3
+truncation_symbol    = "…/"
+repo_root_style      = "bold #d4a85a"
+repo_root_format     = "[$repo_root]($repo_root_style)[$path]($style) "
+format               = "[$path]($style) "
+read_only            = "  "
+read_only_style      = "#a84848"
+
+# ── Git branch ────────────────────────────────────────────────
+[git_branch]
+format = "[  $branch]($style) "
+style  = "italic #4a8080"
+symbol = ""
+
+# ── Git status ────────────────────────────────────────────────
+[git_status]
+format     = "[$all_status]($style)"
+style      = "#5a4e38"
+ahead      = "[⇡${count}](#6aadad) "
+behind     = "[⇣${count}](#6aadad) "
+diverged   = "[⇕](#a84848) "
+conflicted = "[~](#a84848) "
+untracked  = "[?](#5a4e38) "
+modified   = "[●](#b8792a) "
+staged     = "[+](#4a8080) "
+renamed    = "[»](#4a8080) "
+deleted    = "[-](#a84848) "
+stashed    = ""
+
+# ── Python venv ───────────────────────────────────────────────
+[python]
+format            = "[(${virtualenv})]($style) "
+style             = "#2d6060"
+detect_extensions = ["py"]
+
+# ── Disabled clutter ──────────────────────────────────────────
+[package]
+disabled = true
+
+[cmd_duration]
+disabled = true
