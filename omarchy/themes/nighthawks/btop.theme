@@ -1,0 +1,60 @@
+# Nighthawks — Edward Hopper 1942
+
+theme[main_bg]="#0f0e0c"
+theme[main_fg]="#b0a080"
+theme[title]="#d8caa8"
+theme[hi_fg]="#d4a85a"
+theme[selected_bg]="#1e1a12"
+theme[selected_fg]="#d4a85a"
+theme[inactive_fg]="#2a2620"
+theme[proc_misc]="#4a8080"
+theme[cpu_box]="#2a2620"
+theme[mem_box]="#2a2620"
+theme[net_box]="#2a2620"
+theme[proc_box]="#2a2620"
+theme[div_line]="#2a2620"
+
+# Temperature — cold teal to warm amber to hot red
+theme[temp_start]="#6aadad"
+theme[temp_mid]="#d4a85a"
+theme[temp_end]="#a84848"
+
+# CPU — teal to amber
+theme[cpu_start]="#4a8080"
+theme[cpu_mid]="#b8792a"
+theme[cpu_end]="#d4a85a"
+
+# Mem/Disk free
+theme[free_start]="#8b3535"
+theme[free_mid]="#a84848"
+theme[free_end]="#d4a85a"
+
+# Mem/Disk cached
+theme[cached_start]="#2d6060"
+theme[cached_mid]="#4a8080"
+theme[cached_end]="#6aadad"
+
+# Mem/Disk available
+theme[available_start]="#1e4040"
+theme[available_mid]="#2d6060"
+theme[available_end]="#4a8080"
+
+# Mem/Disk used
+theme[used_start]="#b8792a"
+theme[used_mid]="#c8934a"
+theme[used_end]="#d4a85a"
+
+# Download — teal
+theme[download_start]="#2d6060"
+theme[download_mid]="#4a8080"
+theme[download_end]="#6aadad"
+
+# Upload — amber
+theme[upload_start]="#b8792a"
+theme[upload_mid]="#c8934a"
+theme[upload_end]="#d4a85a"
+
+# Process gradients
+theme[process_start]="#4a8080"
+theme[process_mid]="#b8792a"
+theme[process_end]="#a84848"

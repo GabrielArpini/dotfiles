@@ -1,0 +1,40 @@
+accent = "#d4a85a"
+cursor = "#d4a85a"
+foreground = "#b0a080"
+background = "#0f0e0c"
+selection_foreground = "#d8caa8"
+selection_background = "#1e1a12"
+
+# black — the dark street
+color0 = "#090908"
+# red — the red dress, used sparingly
+color1 = "#8b3535"
+# green → cold teal exterior
+color2 = "#2d6060"
+# yellow → dim amber interior
+color3 = "#b8792a"
+# blue → deep teal shadow
+color4 = "#1e4040"
+# magenta → muted cream
+color5 = "#8a7a5a"
+# cyan → teal mid
+color6 = "#4a8080"
+# white → warm off-white
+color7 = "#b0a080"
+
+# bright black — dark shadow with warmth
+color8 = "#2a2620"
+# bright red
+color9 = "#a84848"
+# bright teal — window glass glow
+color10 = "#6aadad"
+# bright amber — diner light at full strength
+color11 = "#d4a85a"
+# bright blue → teal
+color12 = "#4a8080"
+# bright magenta → cream bright
+color13 = "#d8caa8"
+# bright cyan → bright teal
+color14 = "#6aadad"
+# bright white → cream
+color15 = "#d8caa8"
