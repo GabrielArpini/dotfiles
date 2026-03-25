@@ -1,0 +1,93 @@
+@import "../../../../omarchy/current/theme/walker.css";
+
+* {
+  all: unset;
+  font-family: "VictorMono Nerd Font";
+  font-size: 16px;
+  color: #5a4e38;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+/* ── Outer box ───────────────────────────────────────────────── */
+.box-wrapper {
+  background: #090908;
+  border: 1px solid #2a2620;
+  padding: 0;
+}
+
+/* ── Search input ────────────────────────────────────────────── */
+.search-container {
+  background: #090908;
+  padding: 18px 20px;
+  border-bottom: 1px solid #1e1a12;
+}
+
+.input {
+  color: #c4b48a;
+  font-size: 18px;
+  caret-color: #d4a85a;
+}
+
+.input placeholder {
+  color: #2a2620;
+  font-style: italic;
+}
+
+/* ── Results list ────────────────────────────────────────────── */
+.content-container {
+  padding: 6px 0;
+}
+
+.scroll {
+  min-height: 0;
+}
+
+.item-box {
+  padding: 0 20px;
+}
+
+.item-text-box {
+  padding: 10px 0;
+}
+
+.item-text {
+  color: #5a4e38;
+  font-size: 15px;
+}
+
+.item-subtext {
+  font-size: 0px;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.item-image {
+  margin-right: 12px;
+  -gtk-icon-size: 14px;
+  opacity: 0.4;
+}
+
+/* ── Selected item ───────────────────────────────────────────── */
+child:selected .item-box {
+  background: #0f0e0c;
+  border-left: 2px solid #d4a85a;
+}
+
+child:selected .item-text {
+  color: #c4b48a;
+}
+
+child:hover .item-box {
+  background: #0a0908;
+}
+
+/* ── Placeholder / no results ────────────────────────────────── */
+.placeholder {
+  color: #2a2620;
+  font-style: italic;
+  padding: 20px;
+}
