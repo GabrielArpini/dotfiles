@@ -1,0 +1,24 @@
+include=~/.local/share/omarchy/default/mako/core.ini
+
+font=VictorMono Nerd Font 13px
+text-color=#b0a080
+background-color=#0f0e0c
+border-color=#2a2620
+border-size=1
+border-radius=0
+padding=12,16
+outer-margin=14
+width=380
+
+[urgency=low]
+border-color=#1e1a12
+text-color=#5a4e38
+
+[urgency=normal]
+border-color=#2a2620
+text-color=#b0a080
+
+[urgency=critical]
+border-color=#a84848
+text-color=#d8caa8
+background-color=#0f0e0c
