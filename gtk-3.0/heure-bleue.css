@@ -1,0 +1,34 @@
+/* L’heure bleue: dark GTK/Libadwaita surfaces. */
+@define-color window_bg_color #051626;
+@define-color window_fg_color #DFE1D5;
+@define-color view_bg_color #051626;
+@define-color view_fg_color #DFE1D5;
+@define-color headerbar_bg_color #10293B;
+@define-color headerbar_fg_color #DFE1D5;
+@define-color headerbar_backdrop_color #051626;
+@define-color sidebar_bg_color #051626;
+@define-color sidebar_fg_color #DFE1D5;
+@define-color sidebar_backdrop_color #051626;
+@define-color card_bg_color #10293B;
+@define-color card_fg_color #DFE1D5;
+@define-color dialog_bg_color #051626;
+@define-color dialog_fg_color #DFE1D5;
+@define-color popover_bg_color #10293B;
+@define-color popover_fg_color #DFE1D5;
+@define-color accent_bg_color #5F919B;
+@define-color accent_fg_color #051626;
+@define-color accent_color #8CA6B5;
+@define-color theme_bg_color #051626;
+@define-color theme_fg_color #DFE1D5;
+@define-color theme_base_color #051626;
+@define-color theme_text_color #DFE1D5;
+@define-color theme_selected_bg_color #10293B;
+@define-color theme_selected_fg_color #DFE1D5;
+@define-color warning_color #D9BD82;
+@define-color error_color #DB8B79;
+@define-color success_color #A5B98C;
+window, .background { background-color: #051626; color: #DFE1D5; }
+headerbar { background: #10293B; color: #DFE1D5; box-shadow: none; }
+.navigation-sidebar { background-color: #051626; }
+row:selected, .navigation-sidebar row:selected { background-color: #10293B; color: #DFE1D5; }
+selection { background-color: #24465A; color: #DFE1D5; }
