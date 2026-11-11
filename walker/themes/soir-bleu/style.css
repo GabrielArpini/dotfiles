@@ -1,0 +1,93 @@
+/* Self-contained companion to the Soir Bleu Omarchy theme. */
+
+* {
+  all: unset;
+  font-family: "VictorMono Nerd Font";
+  font-size: 16px;
+  color: #c0c7bf;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+/* ── Outer box ───────────────────────────────────────────────── */
+.box-wrapper {
+  background: #101923;
+  border: 1px solid #80939d;
+  padding: 0;
+}
+
+/* ── Search input ────────────────────────────────────────────── */
+.search-container {
+  background: #101923;
+  padding: 18px 20px;
+  border-bottom: 1px solid #304858;
+}
+
+.input {
+  color: #f1e8d5;
+  font-size: 18px;
+  caret-color: #8eafc4;
+}
+
+.input placeholder {
+  color: #80939d;
+  font-style: italic;
+}
+
+/* ── Results list ────────────────────────────────────────────── */
+.content-container {
+  padding: 6px 0;
+}
+
+.scroll {
+  min-height: 0;
+}
+
+.item-box {
+  padding: 0 20px;
+}
+
+.item-text-box {
+  padding: 10px 0;
+}
+
+.item-text {
+  color: #c0c7bf;
+  font-size: 15px;
+}
+
+.item-subtext {
+  font-size: 0px;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.item-image {
+  margin-right: 12px;
+  -gtk-icon-size: 14px;
+  opacity: 0.4;
+}
+
+/* ── Selected item ───────────────────────────────────────────── */
+child:selected .item-box {
+  background: #141f2b;
+  border-left: 2px solid #8eafc4;
+}
+
+child:selected .item-text {
+  color: #f1e8d5;
+}
+
+child:hover .item-box {
+  background: #243644;
+}
+
+/* ── Placeholder / no results ────────────────────────────────── */
+.placeholder {
+  color: #80939d;
+  font-style: italic;
+  padding: 20px;
+}

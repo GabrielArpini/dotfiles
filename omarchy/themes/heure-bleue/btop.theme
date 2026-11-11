@@ -1,0 +1,60 @@
+# Soir Bleu — Edward Hopper 1914
+
+theme[main_bg]="#051626"
+theme[main_fg]="#DFE1D5"
+theme[title]="#DFE1D5"
+theme[hi_fg]="#5F919B"
+theme[selected_bg]="#10293B"
+theme[selected_fg]="#5F919B"
+theme[inactive_fg]="#8CA6B5"
+theme[proc_misc]="#5F919B"
+theme[cpu_box]="#8CA6B5"
+theme[mem_box]="#8CA6B5"
+theme[net_box]="#8CA6B5"
+theme[proc_box]="#8CA6B5"
+theme[div_line]="#8CA6B5"
+
+# Temperature — cold teal to warm amber to hot red
+theme[temp_start]="#5F919B"
+theme[temp_mid]="#5F919B"
+theme[temp_end]="#DB8B79"
+
+# CPU — teal to amber
+theme[cpu_start]="#5F919B"
+theme[cpu_mid]="#D9BD82"
+theme[cpu_end]="#5F919B"
+
+# Mem/Disk free
+theme[free_start]="#DB8B79"
+theme[free_mid]="#DB8B79"
+theme[free_end]="#5F919B"
+
+# Mem/Disk cached
+theme[cached_start]="#A5B98C"
+theme[cached_mid]="#5F919B"
+theme[cached_end]="#5F919B"
+
+# Mem/Disk available
+theme[available_start]="#10293B"
+theme[available_mid]="#A5B98C"
+theme[available_end]="#5F919B"
+
+# Mem/Disk used
+theme[used_start]="#D9BD82"
+theme[used_mid]="#D9BD82"
+theme[used_end]="#5F919B"
+
+# Download — teal
+theme[download_start]="#A5B98C"
+theme[download_mid]="#5F919B"
+theme[download_end]="#5F919B"
+
+# Upload — amber
+theme[upload_start]="#D9BD82"
+theme[upload_mid]="#D9BD82"
+theme[upload_end]="#5F919B"
+
+# Process gradients
+theme[process_start]="#5F919B"
+theme[process_mid]="#D9BD82"
+theme[process_end]="#DB8B79"
